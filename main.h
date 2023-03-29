@@ -17,5 +17,6 @@ typedef struct specifier
 } spec;
 
 int _printf(const char *format, ...);
+int handle_printf(const char *format, ...);
 
 #endif
